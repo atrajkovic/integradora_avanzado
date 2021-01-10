@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutricord - Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <img id="logo-img" src="images/logo.jpg" alt="Nutricord - Logo">
+        </div>
+        
+        <nav>
+            <ul id="botonera">
+                <a href="index.html"><li class="boton-nav">Inicio</li
+                ></a><a href="nosotros.html"><li class="boton-nav">Nosotros</li
+                ></a><a href="servicios.html"><li class="boton-nav">Servicios</li
+                ></a><a href=""><li class="btn-activo">Contacto</li
+            ></a></ul>
+        </nav>
+    </header>
+
+    <form>
+        <h3 id="cabeza-form">Formulario de Contacto</h3>
+        <label class="desc-formulario">Nombre</label>
+        <input id="nombre" class="campo-form" type="text" placeholder="Tu nombre">
+        <label class="desc-formulario">Apellido</label>
+        <input id="apellido" class="campo-form" type="text" placeholder="Tu apellido">
+        <label class="desc-formulario">Teléfono</label>
+        <input id="telefono" class="campo-form" type="text" placeholder="3510000000">
+        <label class="desc-formulario">Email</label>
+        <input type="text" class="campo-form" id="email" placeholder="ejemplo@dominio.com">
+        <label class="desc-formulario">Mensaje</label>
+        <textarea name="" id="mensaje" placeholder="¿En qué podemos ayudarte?"> </textarea>
+        <p id="adv-campos">*Todos los campos son obligatorios</p>
+        <br><input type="submit" id="enviar" value="Enviar">
+    </form>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
